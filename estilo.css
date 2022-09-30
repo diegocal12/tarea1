@@ -1,0 +1,288 @@
+
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+}
+.cuadros1{
+    width: 100%;
+    background-color: #eb57d5;
+    text-align: center;  
+}
+
+
+:root{
+    --primary-color:#eb5757;
+    --secondary-color:#222;
+    --light-color:#f9f9f9;
+    --dark-color:#333;
+}
+
+header{
+    width: 100vw;
+    height: 150px;
+    position: fixed;
+    background-color: var(--primary-color);
+    z-index: 900;
+
+}
+
+header .covid{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+}
+
+header .covid button{
+    width: 140px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+header .covid p{
+    font-size: 18px;
+}
+
+header .menu{
+    width: 100%;
+    height: 75px;
+    padding: 0 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light-color);
+}
+
+header .menu div{
+    width: 600px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu div a{
+    height: 35px;
+    width: 75px;
+    padding-top: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--light-color);
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+header .menu div a:hover{
+    background-color: var(--secondary-color);
+}
+
+header .menu div button{
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    background-image: url("./img/9025885_shopping_cart_icon.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    border: none;
+    position: relative;
+}
+
+header .menu div button span{
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    text-align: center;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+
+main{
+    padding-top: 150px;
+}
+.calis{
+    background-color: rgba(0, 0, 0, 0);
+    
+     left: 50px;
+     
+     top: 100px;
+
+     width: 140px;
+    height: 35px;
+    border-radius: 18px;
+   
+    
+    color: var(--light-color); 
+     
+} 
+
+main .primera{
+    height: 500px;
+    background-image: url("https://picsum.photos/400/300");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 25px;
+    color: var(--light-color);
+    padding-top: 100px;
+    padding-left: 25px;
+}
+
+/**/
+.cuadros1{
+    width: 100%;
+    background-color: #eb57d5;
+    text-align: center;
+}
+.cuadros1 .cubos article
+{
+    width: 370px;
+    background-color: red;
+    display: inline-block;
+    padding: 10px;
+}
+.cuadros1 .cubos article div
+{
+    width: 350px;
+    height: 350px;
+    background-color: #222;
+    text-align: center;
+}
+.cajas{
+  
+    background-color: #577aeb;
+   
+}
+.shop{
+    font-size: 30px;
+    color: var(--primary-color);
+}
+.texto{
+    display: flex;
+  left:100px ;
+    width: 350px;
+    height: 100px ;
+   text-align: center;
+   font-size: 20px;
+}
+.COVID{
+  
+    display:flex;
+    background-color: #577aeb;
+
+    width: 400px;
+    height: 90px;
+    margin-left: 850px;
+    margin-bottom: 5%;
+  
+}
+.titulo1{
+    display:flex;
+    background-color: #baeb57;
+width: 400px;
+bottom: 40px;
+}
+/**/
+.imajen1{
+    padding-top: 100px;
+    text-align: right;
+    height: 600px;
+    background-image: url("https://picsum.photos/400/300");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 30px;
+}
+/**/
+.partedos{
+    width: 100%;
+    background-color: #57eb66;
+    text-align: center;   
+}
+.cajas2{
+  width: 320px;
+    background-color: red;
+    display: inline-block;
+    padding: 10px;   
+    
+}
+.img1
+{
+    
+    width: 100%;
+    height: 450px;
+}
+.botonven{
+    background-color: #577aeb;
+    display:flex;
+    
+}
+.letras{
+    background-color: #577aeb;
+display: flex;
+font-size: 40px;
+}
+.botdos{
+    width: 140px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--light-color);  
+   
+}
+/**/
+.final{
+    width: 100%;
+    background-color: #eb57d5;
+    text-align: right;
+  padding-right: 40px;
+   padding-top: 60px;
+   
+}
+.text{
+    width: 920px;
+    height: 600px;
+    background-color:var(--dark-color);
+    display: inline-block;
+    color: var(--light-color);
+    padding: 10px;  
+   font-size: 24px;
+   padding-right: 10vw;
+   text-align: center;
+   padding-top: 10vh;
+     padding-left: 7vw;
+   
+}
+.img2{
+position: absolute;
+left: 17%;
+height: 80vh;
+padding-top: 10vh;
+    width: 400px;
+
+}
+
