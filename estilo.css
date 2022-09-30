@@ -38,7 +38,7 @@ header{
 header .covid{
     width: 100%;
     height: 75px;
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
     gap: 10px;
